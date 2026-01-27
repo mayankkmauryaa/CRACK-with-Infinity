@@ -167,9 +167,9 @@ x = 2
 - Track frequencies of negative numbers
 - Since `nums[i]` is limited to `[-50, 50]`, use a **frequency array** for optimization
 - For each window:
-  - Collect negative numbers in sorted order implicitly
-  - Find the **x-th smallest negative**
-  - If it doesn’t exist, return `0`
+- Collect negative numbers in sorted order implicitly
+- Find the **x-th smallest negative**
+- If it doesn’t exist, return `0`
 
 This approach efficiently handles large inputs.
 
@@ -177,11 +177,7 @@ This approach efficiently handles large inputs.
 
 ## Topics
 
-`Sliding Window`  
-`Counting / Frequency Array`  
-`Order Statistics`  
+`Sliding Window`
+`Counting / Frequency Array`
+`Order Statistics`
 `Array`
-
-```
-
-```

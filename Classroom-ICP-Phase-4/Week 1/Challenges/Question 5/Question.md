@@ -180,7 +180,3 @@ This problem introduces **parity-based frequency optimization**, combining:
 `Frequency Array`  
 `Parity Logic`  
 `Optimization`
-
-```
-
-```
