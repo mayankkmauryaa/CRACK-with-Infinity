@@ -1,6 +1,25 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
 
 class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int m = sc.nextInt();
+        int arr1[] = new int[m];
+        int n = sc.nextInt();
+        int arr2[] = new int[n];
+
+        int ans[] = relativeSortArray(arr1, arr2);
+
+        for (int i = 0; i < ans.length; i++) {
+            System.out.print(ans[i] + " ");
+        }
+    }
+
     public static int[] relativeSortArray(int[] arr1, int[] arr2) {
         Map<Integer, Integer> freq = new HashMap<>();
 
