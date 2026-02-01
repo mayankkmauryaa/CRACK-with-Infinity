@@ -12,11 +12,11 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        long ans = max_good_subarray(n, arr, k);
+        long ans = max_good_subarray(arr, k);
         System.out.println(ans);
     }
 
-    private static long max_good_subarray(int n, int[] arr, int k) {
+    private static long max_good_subarray(int[] arr, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         int l = 0;
         long sum = 0;

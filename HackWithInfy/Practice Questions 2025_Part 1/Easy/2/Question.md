@@ -234,4 +234,3 @@ It is optimal to choose the subarray **[1, 3, 2]**.
 Its sum = `1 + 3 + 2 = 6`.
 
 Hence, our answer is **6**.
-
