@@ -7,7 +7,6 @@ public class Solution {
         int n = s.length();
         long score = 0;
 
-        // One stack per character (a–z)
         Stack<Integer>[] st = new Stack[26];
         for (int i = 0; i < 26; i++) {
             st[i] = new Stack<>();
@@ -19,12 +18,10 @@ public class Solution {
 
             int mirrorIdx = mirror - 'a';
 
-            // If closest mirror exists, match it
             if (!st[mirrorIdx].isEmpty()) {
                 int j = st[mirrorIdx].pop();
                 score += (i - j);
-            } // Otherwise, store this index
-            else {
+            } else {
                 st[ch - 'a'].push(i);
             }
         }

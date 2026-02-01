@@ -3,7 +3,7 @@ class Solution {
 
     public static int[] getSubarrayBeauty(int[] nums, int k, int x) {
         int n = nums.length;
-        int[] freq = new int[101]; // index = value + 50
+        int[] freq = new int[101];
         int[] result = new int[n - k + 1];
 
         for (int i = 0; i < n; i++) {
