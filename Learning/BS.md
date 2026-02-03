@@ -138,7 +138,7 @@ public class Main{
 }
 ```
 
----
+- Question more alike : [Allocate Minimum Pages](https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)
 
 ## Q Fair Workload with a Twist
 
