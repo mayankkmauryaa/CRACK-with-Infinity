@@ -4,11 +4,8 @@
 
 ## Problem Statement
 
-Monk visits the land of Islands. There are `N islands` and `M bridges` connecting some of the islands. Monk is standing at island `1` and wants to reach island `N`.
-
-Each bridge connects `two islands` and can be crossed in both directions. Monk can cross any bridge at most once.
-
-Find the **minimum number** of bridges Monk has to cross to reach island `N`.
+Monk visits the land of Islands. There are a total of **N islands** numbered from **1 to N**. Some pairs of islands are connected to each other by **Bidirectional bridges** running over water.
+Monk hates to cross these bridges as they require a lot of efforts. He is standing at **Island #1** and wants to reach the **Island #N**. Find the **minimum the number of bridges** that he shall have to cross, if he takes the optimal route.
 
 - extract :
 
@@ -32,6 +29,7 @@ Find the **minimum number** of bridges Monk has to cross to reach island `N`.
 
 ## Output Format
 
+- Print the answer to each test case in a new line.
 - For each test case, print a **single integer** — the minimum number of bridges required to connect all islands, or `-1` if impossible.
 
 ---
