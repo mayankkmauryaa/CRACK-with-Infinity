@@ -1,4 +1,6 @@
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 // Definition for singly-linked list.
@@ -40,6 +42,26 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             while (!st.isEmpty() && arr[i] > arr[st.peek()]) {
                 ans[st.pop()] = arr[i];
+            }
+            st.push(i);
+        }
+        return ans;
+    }
+}
+
+class Solution_ArrayList {
+    public int[] nextLargerNodes(ListNode head) {
+        List<Integer> list = new ArrayList<>();
+        while (head != null) {
+            list.add(head.val);
+            head = head.next;
+        }
+        int n = list.size();
+        int ans[] = new int[n];
+        Stack<Integer> st = new Stack<>();
+        for (int i = 0; i < n; i++) {
+            while (!st.isEmpty() && list.get(i) > list.get(st.peek())) {
+                ans[st.pop()] = list.get(i);
             }
             st.push(i);
         }

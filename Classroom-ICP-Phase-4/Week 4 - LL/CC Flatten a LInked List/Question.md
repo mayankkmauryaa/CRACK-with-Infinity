@@ -88,7 +88,3 @@ For each test case, the function you complete should return the restructured lin
 ![Strange Linked List](https://s3.amazonaws.com/codechef_shared/download/Images/Internal+problems_images/strange_list.JPG)
 
 ![Flattened Linked List](https://s3.amazonaws.com/codechef_shared/download/Images/Internal+problems_images/not_strange_list.JPG)
-
-```
-
-```
