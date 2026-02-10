@@ -1,8 +1,8 @@
 # [2816. Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)
 
-You are given the <code>head</code> of a **non-empty** linked list representing a non-negative integer without leading zeroes.
+You are given the `head` of a **non-empty** linked list representing a non-negative integer without leading zeroes.
 
-Return the <code>head</code> of the linked list after **doubling** it.
+Return the `head` of the linked list after **doubling** it.
 
 **Example 1:**
 <img alt="" src="https://assets.leetcode.com/uploads/2023/05/28/example.png" style="width: 401px; height: 81px;">
@@ -24,6 +24,6 @@ Explanation: The figure above corresponds to the given linked list which represe
 
 **Constraints:**
 
-- The number of nodes in the list is in the range <code>[1, 10^4]</code>
-- <code>0 <= Node.val <= 9</code>
-- The input is generated such that the list represents a number that does not have leading zeros, except the number <code>0</code> itself.
+- The number of nodes in the list is in the range `[1, 10^4]`
+- `0 <= Node.val <= 9`
+- The input is generated such that the list represents a number that does not have leading zeros, except the number `0` itself.

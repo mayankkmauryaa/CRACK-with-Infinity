@@ -1,10 +1,10 @@
 # [1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/)
 
-You are given the <code>head</code> of a linked list with <code>n</code> nodes.
+You are given the `head` of a linked list with `n` nodes.
 
 For each node in the list, find the value of the **next greater node** . That is, for each node, find the value of the first node that is next to it and has a **strictly larger** value than it.
 
-Return an integer array <code>answer</code> where <code>answer[i]</code> is the value of the next greater node of the <code>i^th</code> node (**1-indexed** ). If the <code>i^th</code> node does not have a next greater node, set <code>answer[i] = 0</code>.
+Return an integer array `answer` where `answer[i]` is the value of the next greater node of the `i^th` node (**1-indexed** ). If the `i^th` node does not have a next greater node, set `answer[i] = 0`.
 
 **Example 1:**
 
@@ -26,6 +26,6 @@ Output: [7,0,5,5,0]
 
 **Constraints:**
 
-- The number of nodes in the list is <code>n</code>.
-- <code>1 <= n <= 10^4</code>
-- <code>1 <= Node.val <= 10^9</code>
+- The number of nodes in the list is `n`.
+- `1 <= n <= 10^4`
+- `1 <= Node.val <= 10^9`

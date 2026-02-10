@@ -1,8 +1,8 @@
 # [2289. Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/description/)
 
-You are given a **0-indexed** integer array <code>nums</code>. In one step, **remove** all elements <code>nums[i]</code> where <code>nums[i - 1] > nums[i]</code> for all <code>0 < i < nums.length</code>.
+You are given a **0-indexed** integer array `nums`. In one step, **remove** all elements `nums[i]` where `nums[i - 1] > nums[i]` for all `0 < i < nums.length`.
 
-Return the number of steps performed until <code>nums</code> becomes a **non-decreasing** array.
+Return the number of steps performed until `nums` becomes a **non-decreasing** array.
 
 **Example 1:**
 
@@ -26,5 +26,5 @@ Explanation: nums is already a non-decreasing array. Therefore, we return 0.
 
 **Constraints:**
 
-- <code>1 <= nums.length <= 10^5</code>
-- <code>1 <= nums[i] <= 10^9</code>
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^9`
