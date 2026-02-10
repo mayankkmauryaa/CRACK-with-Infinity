@@ -1,8 +1,8 @@
 # [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/)
 
-There are <code>n</code> people in a line queuing to buy tickets, where the <code>0^th</code> person is at the **front** of the line and the <code>(n - 1)^th</code> person is at the **back** of the line.
+There are `n` people in a line queuing to buy tickets, where the `0^th` person is at the **front** of the line and the `(n - 1)^th` person is at the **back** of the line.
 
-You are given a **0-indexed** integer array <code>tickets</code> of length <code>n</code> where the number of tickets that the <code>i^th</code> person would like to buy is <code>tickets[i]</code>.
+You are given a **0-indexed** integer array `tickets` of length `n` where the number of tickets that the `i^th` person would like to buy is `tickets[i]`.
 
 Each person takes **exactly 1 second** to buy a ticket. A person can only buy **1 ticket at a time** and has to go back to **the end** of the line (which happens **instantaneously** ) in order to buy more tickets. If a person does not have any tickets left to buy, the person will **leave ** the line.
 
@@ -10,10 +10,10 @@ Return the **time taken** for the person **initially** at position **k** \*\* \*
 
 **Example 1:**
 
-<div class="example-block">
-Input: tickets = [2,3,2], k = 2
 
-Output: 6
+Input: `tickets = [2,3,2], k = 2`
+
+Output: `6`
 
 Explanation:
 
@@ -27,10 +27,10 @@ Explanation:
 
 **Example 2:**
 
-<div class="example-block">
-Input: tickets = [5,1,1,1], k = 0
 
-Output: 8
+Input: `tickets = [5,1,1,1], k = 0`
+
+Output: `8`
 
 Explanation:
 
@@ -41,7 +41,7 @@ Explanation:
 
 **Constraints:**
 
-- <code>n == tickets.length</code>
-- <code>1 <= n <= 100</code>
-- <code>1 <= tickets[i] <= 100</code>
-- <code>0 <= k < n</code>
+- `n == tickets.length`
+- `1 <= n <= 100`
+- `1 <= tickets[i] <= 100`
+- `0 <= k < n`

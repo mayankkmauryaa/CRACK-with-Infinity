@@ -1,6 +1,6 @@
 # [950. Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/description/)
 
-You are given an integer array <code>deck</code>. There is a deck of cards where every card has a unique integer. The integer on the <code>i^th</code> card is <code>deck[i]</code>.
+You are given an integer array `deck`. There is a deck of cards where every card has a unique integer. The integer on the `i^th` card is `deck[i]`.
 
 You can order the deck in any order you want. Initially, all the cards start face down (unrevealed) in one deck.
 
@@ -41,6 +41,6 @@ Output: [1,1000]
 
 **Constraints:**
 
-- <code>1 <= deck.length <= 1000</code>
-- <code>1 <= deck[i] <= 10^6</code>
-- All the values of <code>deck</code> are **unique** .
+- `1 <= deck.length <= 1000`
+- `1 <= deck[i] <= 10^6`
+- All the values of `deck` are **unique** .
