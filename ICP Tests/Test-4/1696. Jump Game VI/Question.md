@@ -1,10 +1,10 @@
 # [1696. Jump Game VI](https://leetcode.com/problems/jump-game-vi/description/)
 
-You are given a **0-indexed** integer array <code>nums</code> and an integer <code>k</code>.
+You are given a **0-indexed** integer array `nums` and an integer `k`.
 
-You are initially standing at index <code>0</code>. In one move, you can jump at most <code>k</code> steps forward without going outside the boundaries of the array. That is, you can jump from index <code>i</code> to any index in the range <code>[i + 1, min(n - 1, i + k)]</code> **inclusive** .
+You are initially standing at index `0`. In one move, you can jump at most `k` steps forward without going outside the boundaries of the array. That is, you can jump from index `i` to any index in the range `[i + 1, min(n - 1, i + k)]` **inclusive** .
 
-You want to reach the last index of the array (index <code>n - 1</code>). Your **score** is the **sum** of all <code>nums[j]</code> for each index <code>j</code> you visited in the array.
+You want to reach the last index of the array (index `n - 1`). Your **score** is the **sum** of all `nums[j]` for each index `j` you visited in the array.
 
 Return the **maximum score** you can get.
 
@@ -33,5 +33,5 @@ Output: 0
 
 **Constraints:**
 
-- <code>1 <= nums.length, k <= 10^5</code>
-- <code>-10^4 <= nums[i] <= 10^4</code>
+- `1 <= nums.length, k <= 10^5`
+- `-10^4 <= nums[i] <= 10^4`
