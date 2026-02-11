@@ -1,5 +1,6 @@
 # B. Make it Divisible by 25
 
+
 [**Codeforces Submission**](https://codeforces.com/contest/1593/submission/362250732)
 
 [**Problem**](#problem-statement)
@@ -10,9 +11,9 @@
 
 [**Optimal**](#optimal-approach-greedy-strategy)
 
-[**Optimal Solution**](#java-implementation-optimal)
+[**Optimal Solution (Easy One)**](#java-implementation-optimal)
 
-## Problem Statement
+## [Problem Statement](https://codeforces.com/problemset/problem/1903/A)
 
 It is given a positive integer `n`. In **1 move**, one can select any single digit and remove it (i.e. one selects some position in the number and removes the digit located at this position). The operation cannot be performed if only one digit remains. If the resulting number contains leading zeroes, they are automatically removed.
 
