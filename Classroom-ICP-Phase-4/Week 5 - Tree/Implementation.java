@@ -10,7 +10,7 @@ class TreeNode {
     }
 }
 
-public class Solution {
+public class Implementation {
 
     public TreeNode buildTree(Integer[] values) {
         if (values.length == 0 || values[0] == null)
@@ -127,7 +127,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Implementation sol = new Implementation();
         // static means no need to create object to call functions
         // if no static functions create object of the class then call with
         // obj.functionName();
