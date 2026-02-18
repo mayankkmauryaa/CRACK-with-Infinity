@@ -27,7 +27,7 @@ class Tuples implements Comparable<Tuples> {
     }
 }
 
-public class ComprableDemo {
+public class Comprable {
 
     public static void main(String[] args) {
 
