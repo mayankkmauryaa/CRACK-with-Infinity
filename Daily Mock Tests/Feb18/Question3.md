@@ -86,16 +86,28 @@ import java.util.*;
 
 class Main {
     static void checkSum(int n, int k, int[] a) {
-        HashSet<Integer> seenNumbers = new HashSet<>();
+        HashSet<Integer> set = new HashSet<>();
         for (int num : a) {
-            int complement = k - num;
-            if (seenNumbers.contains(complement)) {
+            int find = k - num;
+            if (set.contains(find)) {
                 System.out.println("YES");
                 return;
             }
-            seenNumbers.add(num);
+            set.add(num);
         }
         System.out.println("NO");
+    }
+
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
+            int val = target - nums[i];
+            if (map.containsKey(val))
+                return new int[] { i, map.get(val) };
+            map.put(nums[i], i);
+        }
+        return new int[] { -1, -1 };
     }
 
     public static void main(String[] args) {
