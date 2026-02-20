@@ -1,5 +1,11 @@
 # [D. Strong Vertices](https://codeforces.com/problemset/problem/1857/D)
 
+time limit per test : 1 second<br>
+memory limit per test256 megabytes
+
+## [Codeforces Solution](https://codeforces.com/contest/1857/submission/363714595)
+
+
 ## Problem Description
 
 Given two arrays $a$ and $b$, both of length $n$. Elements of both arrays indexed from $1$ to $n$. You are constructing a directed graph, where edge from $u$ to $v$ ($u \neq v$) exists if $a_u - a_v \ge b_u - b_v$.
@@ -93,7 +99,13 @@ The first sample is covered in the problem statement.
 
 For the second sample, the graph looks like this:
 
+<div align="center">
+
+![alt text](image-1.png)
+
 The graph has two strong vertices with numbers 3 and 5. Note that there is a bidirectional edge between vertices 3 and 5.
+
+</div>
 
 In the third sample, the vertices are connected by a single directed edge from vertex 2 to vertex 1, so the only strong vertex is 2.
 

@@ -1,5 +1,10 @@
 # [D. Three Activities](https://codeforces.com/problemset/problem/1914/D)
 
+time limit per test : 1 second<br>
+memory limit per test : 256 megabytes
+
+## [Codeforces Solution](https://codeforces.com/contest/1914/submission/363714722)
+
 ## Problem Description
 
 Winter holidays are coming up. They are going to last for days.

@@ -1,7 +1,9 @@
 # [B. Divan and a New Project](https://codeforces.com/problemset/problem/1614/B)
 
 time limit per test : 1 second<br>
-memory limit per test256 megabytes
+memory limit per test : 256 megabytes
+
+## [Codeforces Solution](https://codeforces.com/contest/1614/submission/363714751)
 
 ## Problem Description
 
