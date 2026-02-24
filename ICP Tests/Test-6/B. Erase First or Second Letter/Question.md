@@ -1,8 +1,8 @@
-# 4. Erase First or Second Letter
+# [4. Erase First or Second Letter](https://codeforces.com/problemset/problem/1917/B)
 
 **Problem:**
 
-You are given a string  of length . Let's define two operations you can apply on the string:
+You are given a string of length . Let's define two operations you can apply on the string:
 
 1. Remove the first character of the string.
 2. Remove the second character of the string.
@@ -13,13 +13,13 @@ Your task is to find the number of distinct **non-empty** strings that can be ge
 
 ## Input Format
 
-The first line contains a single integer  () — the number of test cases.
+The first line contains a single integer () — the number of test cases.
 Each test case consists of two lines:
 
-* The first line contains  () — the length of the string.
-* The second line contains the string  consisting of lowercase English letters.
+- The first line contains () — the length of the string.
+- The second line contains the string consisting of lowercase English letters.
 
-The sum of  over all test cases does not exceed .
+The sum of over all test cases does not exceed .
 
 ---
 
@@ -31,9 +31,9 @@ For each test case, output a single integer: the number of distinct non-empty st
 
 ## Constraints
 
-* 
-* 
-* Sum of 
+-
+-
+- Sum of
 
 ---
 
@@ -69,13 +69,13 @@ abcdefghijklmnopqrst
 
 **Explanation:**
 
-* In the first case (`aaaaa`), the possible strings are: `a`, `aa`, `aaa`, `aaaa`, `aaaaa`.
-* In the third case (`ababa`), one way to reach `ba` is: `ababa`  (remove 1st) `baba`  (remove 2nd) `bba`  (remove 2nd) `ba`.
+- In the first case (`aaaaa`), the possible strings are: `a`, `aa`, `aaa`, `aaaa`, `aaaaa`.
+- In the third case (`ababa`), one way to reach `ba` is: `ababa` (remove 1st) `baba` (remove 2nd) `bba` (remove 2nd) `ba`.
 
 ---
 
 ## Solution
 
-The key observation is that any string we can form will always be a **suffix** of the original string, possibly with some characters removed from the very beginning. Specifically, for every unique character at index , we can form  distinct strings by keeping that character as the new "first" character and taking all possible lengths of the remaining suffix.
+The key observation is that any string we can form will always be a **suffix** of the original string, possibly with some characters removed from the very beginning. Specifically, for every unique character at index , we can form distinct strings by keeping that character as the new "first" character and taking all possible lengths of the remaining suffix.
 
 We use a `Set` to keep track of characters we have already encountered as we iterate through the string to avoid overcounting.
