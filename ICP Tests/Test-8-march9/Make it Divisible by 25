@@ -1,0 +1,133 @@
+Codeforces
+In English По-русски
+hpmayankmaurya | Logout
+
+HomeTopCatalogContestsGymProblemsetGroupsRatingEduAPICalendarHelp
+
+
+Codeforces Round 748 (Div. 3)
+Finished
+Practice
+Add to favourites
+→ Virtual participation
+Virtual contest is a way to take part in past contest, as close as possible to participation on time. It is supported only ICPC mode for virtual contests. If you've seen these problems, a virtual contest is not for you - solve these problems in the archive. If you just want to solve some problem from a contest, a virtual contest is not for you - solve this problem in the archive. Never use someone else's code, read the tutorials or communicate with other person during a virtual contest.
+→ Clone Contest to Mashup
+You can clone this contest to a mashup.
+
+→ Submit?
+Language:	
+Java 21 64bit
+Choose file:	No file chosen
+→ Last submissions
+Submission	Time	Verdict
+362250732	Feb/10/2026 13:42	Accepted
+→ Problem tags
+dfs and similardpgreedymath*900
+No tag edit access
+→ Contest materials
+Announcement
+Tutorial
+ProblemsSubmit CodeMy SubmissionsStatusHacksStandingsCustom Invocation
+B. Make it Divisible by 25
+time limit per test1 second
+memory limit per test256 megabytes
+It is given a positive integer n
+. In 1
+ move, one can select any single digit and remove it (i.e. one selects some position in the number and removes the digit located at this position). The operation cannot be performed if only one digit remains. If the resulting number contains leading zeroes, they are automatically removed.
+
+E.g. if one removes from the number 32925
+ the 3
+-rd digit, the resulting number will be 3225
+. If one removes from the number 20099050
+ the first digit, the resulting number will be 99050
+ (the 2
+ zeroes going next to the first digit are automatically removed).
+
+What is the minimum number of steps to get a number such that it is divisible by 25
+ and positive? It is guaranteed that, for each n
+ occurring in the input, the answer exists. It is guaranteed that the number n
+ has no leading zeros.
+
+Input
+The first line contains one integer t
+ (1≤t≤104
+) — the number of test cases. Then t
+ test cases follow.
+
+Each test case consists of one line containing one integer n
+ (25≤n≤1018
+). It is guaranteed that, for each n
+ occurring in the input, the answer exists. It is guaranteed that the number n
+ has no leading zeros.
+
+Output
+For each test case output on a separate line an integer k
+ (k≥0
+) — the minimum number of steps to get a number such that it is divisible by 25
+ and positive.
+
+Example
+InputCopy
+5
+100
+71345
+3259
+50555
+2050047
+OutputCopy
+0
+3
+1
+3
+2
+Note
+In the first test case, it is already given a number divisible by 25
+.
+
+In the second test case, we can remove the digits 1
+, 3
+, and 4
+ to get the number 75
+.
+
+In the third test case, it's enough to remove the last digit to get the number 325
+.
+
+In the fourth test case, we can remove the three last digits to get the number 50
+.
+
+In the fifth test case, it's enough to remove the digits 4
+ and 7
+.
+
+
+
+Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+Server time: Mar/09/2026 16:21:31UTC+5.5 (k3).
+Desktop version, switch to mobile version.
+Privacy Policy | Terms and Conditions
+Supported by
+TON
+ 
+ITMO University
+
+
+
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+            int n = sc.nextInt();
+            // String s = Integer.toString(n);
+            String s = String.valueOf(n);
+
+            String[] targets
+
+        }
+    }
+}
+```
